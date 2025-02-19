@@ -35,3 +35,5 @@ botaoDeAcessibilidade.addEventListener('click', function (){
    alternaContraste.addEventListener('click', function(){
     document.body.classList.toggle('alto-contraste')
 })
+//Código omitido
+const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
